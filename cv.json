@@ -1,0 +1,110 @@
+{
+	"cv-online":"zan.com/cv",
+	"left":{
+		"info":{
+			"avatar":"http://7xjogi.com1.z0.glb.clouddn.com/cv.JPG",
+			"name":"徐展",
+			"role":"Web前端工程师",
+			"motto":"爱足球的人都充满热情，未来的工作就是我最期待的下一个赛场！"
+		},
+		"kpi":[
+			{
+				"skill":"ES3 & ES6",
+				"score":75
+			},
+			{
+				"skill":"CSS & LESS",
+				"score":50
+			},
+			{
+				"skill":"Angular",
+				"score":85
+			},
+			{
+				"skill":"Vue.js",
+				"score":75
+			},
+			{
+				"skill":"AngularUI & VuestrapUI",
+				"score":90
+			},
+			{
+				"skill":"Node & Express & Mongoose",
+				"score":60
+			},
+			{
+				"skill":"Webpack & fis3 & gulp",
+				"score":60
+			}
+		],
+		"social":[
+			{
+				"url":"xuzhanddbb88@163.com",
+				"name":"mail"
+			},
+			{
+				"url":"github.com/bulldog478",
+				"name":"github"
+			},
+			{
+				"url":"github.com/bulldog478/blog",
+				"name":"blog"
+			}
+		]
+	},
+	"project":[
+		{
+			"name":"UI自动生成框架",
+			"url":"zan.com/uiAuto",
+			"keys":["Angular","jade","xml","gulp","Karma"],
+			"intro":"该框架主要针对富表单应用，仅通过XML配置就可以将`UI组件间的依赖关系`、`表单验证`、`表单数据获取与回填`等与业务相关的逻辑与UI组件逻辑剥离，使得前台开发人员可以将更多精力聚焦到UI组件开发上，真正做到组件化开发模式，可维护性和可复用性都得到极大提升。"
+		},
+		{
+			"name":"服务端模拟框架",
+			"url":"zan.com/mockServ",
+			"keys":["Node","Express","Mongoose","Bluebird"],
+			"intro":"后台开发往往滞后于前台，前台开发通过该框架将rest信息配置到XML中，并由框架解析写入MongoDB，实现`服务端的假数据模拟`，前台代码鲁棒性得到提升"
+		},
+		{
+			"name":"可交互API在线文档",
+			"url":"zan.com/interactiveApi",
+			"keys":["Angular","iFrame","Node","Express","JSON/JS"],
+			"intro":"组件化开发模式会使得组件（通用组件、业务组件）数量急剧增加，由于UI组件的特殊性，单纯的API文档无法让组件使用者更全面的了解组件功能，因此可交互式的在线API文档使得使用者可以更直观的了解组件的接口功能，做到所见即所得。"
+		},
+		{
+			"name":"Vue-print-cv",
+			"url":"zan.com/vuePrintCv",
+			"keys":["Vue.js","Webpack","ES6","Commonjs","LESS"],
+			"intro":"针对pdf简历，做到`突出`、`简洁`，基于Vue.js，组件化实现，而用户只需要做的是配置json文件就可以轻松搞定一份大方得体、内容突出的简历。"
+		}
+	],
+	"work":[
+		{
+			"name":"CVTE",
+			"keys":["Verilog","FPGA"],
+			"time":"2014.10 - 2014.11",
+			"tags":["实习","嵌入式工程师"],
+			"intro":"为电视遥控器编写适配程序。"
+		},
+		{
+			"name":"华为西安研究所",
+			"keys":["Angular","fis3"],
+			"time":"2015.4 - 至今",
+			"tags":["Web前端工程师"],
+			"intro":"开发基于JavaWeb的网管产品，负责Web前端工作，部门Web前端能力建设负责人，主要推广基于UI自动生成框架的组件化开发模式、基于FIS3的前端模块化集成解决方案。新员工转正优秀，全年优秀"
+		}
+	],
+	"education":[
+		{
+			"name":"西北工业大学",
+			"time":"2012.9 - 2015.4",
+			"tags":["硕士","计算机应用技术","自适应控制实验室"],
+			"topic":"基于小脑神经网络的无人机路径规划"
+		},
+		{
+			"name":"大连交通大学",
+			"time":"2007.9 - 2012.7",
+			"tags":["学士","计算机科学与技术","CET-6"]
+		}
+	]
+}
