@@ -10,9 +10,9 @@
 [在线Demo地址](http://shineyao.cn/resume/)
 
 操作步骤：
-1.在项目根目录编写`cv.json`，可以参考我的[cv.json](https://github.com/bulldog478/auto-cv/blob/master/cv.json)
-2.npm install
-3.webpack
-4.打开index.html即可
+1. 在项目根目录编写`cv.json`，可以参考我的[cv.json](https://github.com/bulldog478/auto-cv/blob/master/cv.json)
+2. npm install
+3. webpack
+4. 打开index.html即可
 
 
